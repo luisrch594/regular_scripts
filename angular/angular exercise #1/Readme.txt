@@ -1,0 +1,1 @@
+Angular small projects for the future
