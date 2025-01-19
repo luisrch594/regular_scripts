@@ -1,0 +1,2 @@
+If this script is run then a user will be able to split the files into different frames, mostly on year by year. But if the user wishes it more detail can be added.
+Like if the user want everything split not only be year, but also month and day.
