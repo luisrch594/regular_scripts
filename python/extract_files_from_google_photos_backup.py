@@ -4,7 +4,7 @@ Beggining date: 12-1-25
 File to extract images from directory recursively. This script moves all images or videos into a new directory next to the original of Google Photos. It just ignores the jsons.
 Python version used: 3.13
 Takedown directory must be first extracted with all it's parts before running this script.
-Version: 2.0
+Version: 1.0
 """
 import os
 from pathlib import Path
