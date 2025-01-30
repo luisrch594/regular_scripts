@@ -16,7 +16,7 @@ import requests
 class SessionManager():
 
     def __init__(self,url,user="",password="",auth_method="",timeout=10):
-        self.url=url
+        self._url=url
         self.user=user
         self.password=password
         self.auth_method=auth_method
@@ -26,6 +26,18 @@ class SessionManager():
     def __str__(self):
         return f"user: {self.user}\npassword: {self.password}"
     
+    @property
+    def url(self):
+        return self._url
+    
+    @url.setter
+    def url(self,new_url):
+        self._url=new_url
+
+    @url.deleter
+    def url(self):
+        del self._url
+
     def try_connection(http_method):
         def wrapper(self,*arg, **kw):
             try:
@@ -49,5 +61,5 @@ class SessionManager():
         response=self.session_.get(url=self.url,timeout=self.timeout)
         return {response.status_code,response.text}
     
-session_manager=SessionManager(url='https://jsonplaceholder.typicode.com/todo/1',user="usuario",password="password")
+session_manager=SessionManager(url='https://jsonplaceholder.typicode.com/todos/1',user="usuario",password="password")
 print(session_manager.get())
