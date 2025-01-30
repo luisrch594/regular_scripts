@@ -46,6 +46,12 @@ class RegionDate():
         india_time=datetime.now(india_tz).strftime("%Y-%m-%d %H:%M:%S")
         return india_time
 
+    @normalize_date
+    def california_time(self):
+        california_pt_tz=pytz.timezone("US/Pacific")
+        california_time=datetime.now(california_pt_tz).strftime("%Y-%m-%d")
+        return california_time
+
     def show_all_timezones(self):
         return pytz.all_timezones
 
@@ -53,8 +59,9 @@ dates_around_the_world=RegionDate()
 japan_time=dates_around_the_world.japan_time()
 england_time=dates_around_the_world.england_time()
 india_time=dates_around_the_world.india_time()
+california_time=dates_around_the_world.california_time()
 print(f"The time in Japan right now is: {japan_time}")
 print(f"The time in England right now is: {england_time}")
 print(f"The time in India right now is: {india_time}")
-
+print(f"The time in California(US) right now is: {california_time}")
 
