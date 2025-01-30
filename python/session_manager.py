@@ -8,6 +8,8 @@ In there we used a base class called Endpoint, which inherited it's behaviour to
 an API used for accessing a ton of information in kubernetes VMs
 Python version used: 3.13
 
+#installations needed:
+pip install requests
 
 Version: 1.0
 """
