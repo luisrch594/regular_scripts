@@ -34,6 +34,9 @@ class SessionManager():
     
     @url.setter
     def url(self,new_url):
+        #i want to make sure my url is actually a url
+        #https://
+        #http:// should be denied
         self._url=new_url
 
     @url.deleter
