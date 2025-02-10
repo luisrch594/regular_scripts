@@ -21,7 +21,7 @@
     <ClCompile Include="test_linked_lists.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="test_slack.cpp">
+    <ClCompile Include="test_stack.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
     <ClCompile Include="test_queue.cpp">
@@ -32,8 +32,16 @@
     <ClInclude Include="test_linked_lists.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="test_slack.h">
+    <ClInclude Include="test_stack.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="test_queue.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="test_ibm.rc">
+      <Filter>Archivos de recursos</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

@@ -1,7 +1,6 @@
 #include <iostream>
 #include <locale.h>
-#include "test_linked_lists.h"
-#include "test_slack.h"
+#include "test_queue.h"
 
 using namespace std;
 
@@ -26,6 +25,9 @@ int main() {
     }
     return 0;
     */
-    stack_print();
+    //stack tests
+    //stack_print();
+
+    print_queue();
     return 0;
 }

@@ -128,13 +128,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="test_queue.cpp" />
-    <ClCompile Include="test_slack.cpp" />
+    <ClCompile Include="test_stack.cpp" />
     <ClCompile Include="test_ibm.cpp" />
     <ClCompile Include="test_linked_lists.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="test_linked_lists.h" />
-    <ClInclude Include="test_slack.h" />
+    <ClInclude Include="test_queue.h" />
+    <ClInclude Include="test_stack.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="test_ibm.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
