@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MSI\\Documents\\GitHub\\regular_scripts\\c\u002B\u002B\\test_ibm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83C5DC7E-7491-41C4-AEBD-F70C4BEB336C}|test_ibm\\test_ibm.vcxproj|C:\\Users\\MSI\\Documents\\GitHub\\regular_scripts\\c\u002B\u002B\\test_ibm\\test_ibm\\test_ibm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83C5DC7E-7491-41C4-AEBD-F70C4BEB336C}|test_ibm\\test_ibm.vcxproj|solutionrelative:test_ibm\\test_ibm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C5DC7E-7491-41C4-AEBD-F70C4BEB336C}|test_ibm\\test_ibm.vcxproj|C:\\Users\\MSI\\Documents\\GitHub\\regular_scripts\\c\u002B\u002B\\test_ibm\\test_ibm\\test_slack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83C5DC7E-7491-41C4-AEBD-F70C4BEB336C}|test_ibm\\test_ibm.vcxproj|solutionrelative:test_ibm\\test_slack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C5DC7E-7491-41C4-AEBD-F70C4BEB336C}|test_ibm\\test_ibm.vcxproj|C:\\Users\\MSI\\Documents\\GitHub\\regular_scripts\\c\u002B\u002B\\test_ibm\\test_ibm\\test_slack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83C5DC7E-7491-41C4-AEBD-F70C4BEB336C}|test_ibm\\test_ibm.vcxproj|solutionrelative:test_ibm\\test_slack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "test_slack.cpp",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\GitHub\\regular_scripts\\c\u002B\u002B\\test_ibm\\test_ibm\\test_slack.cpp",
+              "RelativeDocumentMoniker": "test_ibm\\test_slack.cpp",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\GitHub\\regular_scripts\\c\u002B\u002B\\test_ibm\\test_ibm\\test_slack.cpp",
+              "RelativeToolTip": "test_ibm\\test_slack.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-10T00:59:28.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "test_slack.h",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\GitHub\\regular_scripts\\c\u002B\u002B\\test_ibm\\test_ibm\\test_slack.h",
+              "RelativeDocumentMoniker": "test_ibm\\test_slack.h",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\GitHub\\regular_scripts\\c\u002B\u002B\\test_ibm\\test_ibm\\test_slack.h",
+              "RelativeToolTip": "test_ibm\\test_slack.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-10T00:53:05.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test_ibm.cpp",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\GitHub\\regular_scripts\\c\u002B\u002B\\test_ibm\\test_ibm\\test_ibm.cpp",
+              "RelativeDocumentMoniker": "test_ibm\\test_ibm.cpp",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\GitHub\\regular_scripts\\c\u002B\u002B\\test_ibm\\test_ibm\\test_ibm.cpp",
+              "RelativeToolTip": "test_ibm\\test_ibm.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-09T03:26:39.552Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
